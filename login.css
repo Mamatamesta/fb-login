@@ -1,0 +1,233 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+nav {
+	background-color: #f3f3f5;
+	height: 100vh;
+}
+
+.bgcolor {
+	background-color: #e9e5df;
+	position: absolute;
+	Top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80vh;
+}
+
+.heading {
+	font-size: 20px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.paragraph {
+       text-align: center;
+
+}
+
+.hr{
+   margin-top: 8px;
+   
+}
+
+
+.name {
+	display: flex;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	
+}
+
+.first_name input {
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	padding: 8px 8px;
+	margin: 8px 18px;
+
+}
+
+.sur_name input {
+	font-size: 16px;
+    border: none;
+	border-radius: 5px;
+	outline: none;
+	padding: 8px 8px;
+	margin: 8px 18px;
+    
+  }
+
+  .number input {
+  	font-size: 16px;
+  	border: none;
+  	border-radius: 5px;
+  	outline: none;
+  	padding: 8px 8px;
+  	width: 96%;
+  	margin: 5px 10px;
+  }
+
+  .password input {
+  	font-size: 16px;
+  	border: none;
+  	border-radius: 5px;
+  	outline: none;
+  	padding: 8px 8px;
+  	width: 96%;
+  	margin: 5px 10px;
+
+  }
+
+
+ 
+  .main_tag .birth {
+  	text-align: left;
+  	margin: 5px 10px;
+  	font-size: 15px;
+  }
+
+  .birth_details {
+  	display: flex;
+  	border: none;
+  	ouline: none;
+  	border-radius: 5px;
+
+  }
+
+  .birth_details .date select {
+  	font-size: 15px;
+    padding: 3px 3px;
+  	margin: 5px 20px;
+  	width: 20vh;
+
+
+  }
+
+  .birth_details .month select {
+        font-size: 15px;
+        padding: 3px 3px;
+        margin: 5px 20px;
+        width: 20vh;
+  }
+
+  .birth_details .year select {
+        font-size: 15px;
+        padding: 3px 3px;
+        margin: 5px 20px;
+        width: 20vh;
+  }
+
+
+ 
+
+  .main_gender .gender {
+  	font-size: 20px;
+  	margin: 5px 8px;
+
+  }
+
+
+  .mamata {
+  	display: flex;
+
+  	
+
+  	
+}
+
+  .male {
+  	display: flex;
+  	justify-content: space-between;
+  	border: 1px solid green;
+  	margin: 10px 10px;
+  	padding: 5px 5px;
+  	width: 30%;
+  	border-radius: 5px;
+
+  }
+
+  .female {
+  	   justify-content: space-between;
+  	border: 1px solid green;
+  	display: flex;
+  	margin: 10px 10px;
+  	padding: 5px 5px;
+  	width: 30%;
+  	border-radius: 5px;
+
+  }
+
+  .others {
+  	   justify-content: space-between;
+  	border: 1px solid green;
+  	display: flex;
+  	margin: 10px 10px;
+  	padding: 5px 5px;
+  	width: 30%;
+  	border-radius: 5px;
+  }
+
+  
+
+
+  #firstcontent {
+  	font-size: 12px;
+  	margin: 6px 10px;
+  	font-style: italic;
+
+  }
+
+  .secondcontent {
+  	   font-size: 12px;
+  	margin: 6px 10px;
+  	font-style: italic;
+  }
+
+
+
+  span {
+  	color: green;
+  	font-size: 15px;
+  	font-family: monospace;
+  }
+
+  .button {
+  	text-align: center;
+  	
+  }
+
+  .button button{
+  	background-color: green;
+  	color: white;
+  	font-size: 20px;
+  	border: none;
+  	outline: none;
+  	border-radius: 6px;
+  	padding: 5px 8px;
+  	width: 30vh;
+  	margin: 8px 5px;
+
+  }
+
+ .last_content {
+ 	text-align: center;
+ }
+
+  .last_content p {
+  	font-size: 15px;
+  	color: blue;
+    margin: 5px 8px;
+  }
+
+
+
+
